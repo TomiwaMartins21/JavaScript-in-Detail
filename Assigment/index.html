@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript String Method</title>
+</head>
+<body>
+   <h2>JavaScript Error Handling an arrow function </h2>
+   <p>This example demonstrates how to use <b>catch</b> to dispaly an error.</p>
+   <p id="result"></p>
+   <script>
+    product = (a,b) => a*b;
+    try{
+    document.getElementById("result").innerHTML = a;
+    // if the function is invoked here the result will be dispalyed 
+    // if any varible is given the error message get displayed 
+    catch(err){
+    document.getElementById("result").innerHTML = err.message;
+    }
+    }
+   </script> 
+</body>
+</html>
